@@ -104,7 +104,7 @@ function App() {
             type="text"
             value={inputValue}
             onChange={handleRegexInput}
-            placeholder="/Magic Phrase/gi"
+            placeholder="/<\s*a[^>]*>(.*?)<\s*\/\s*a>/g"
             className="Input"
         />
         <button
